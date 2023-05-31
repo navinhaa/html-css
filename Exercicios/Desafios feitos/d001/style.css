@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+    color: rgb(15, 13, 13);
+}
+
+article#caixa {
+
+    background-color: rgb(45, 20, 156);
+    color: white;
+    width: 400px;
+    margin: auto;
+    padding: 1px 10px;
+}
+header {
+    background-color: blue;
+    font: center;
+    color: bisque;
+    margin: auto;
+    padding: 2px 5px;
+}
+
+h1 {
+    margin: auto;
+}

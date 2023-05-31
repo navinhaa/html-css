@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte Externas</title>
+    <style>
+        @font-face {
+
+            font-family:'love';
+            src: url ('..fonts/my love song.ttf') format('opentype'), url('love story.ttf') format('-truetype')
+           
+
+            /*
+                Tipos de format()
+                -opentype (otf)
+                -truetype (ttf)
+                -embedded-opentype
+                -trutype-aat (apple advanced typography)
+                -svg
+            */
+
+        }
+        body {
+
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        h1{
+
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Titulos</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt nesciunt odio facere. Maxime, amet, impedit deserunt recusandae dolorum, expedita ea consectetur veritatis iste minima sunt! Rerum excepturi quo dolore quod?</p>
+</body>
+</html>
